@@ -2,6 +2,10 @@ name: Start a run from Python file on local server via self-hosted Github Action
 
 on:
   push:
+    branches:
+      - development
+    path:
+      - 'src/**'
     
 jobs:
   start-local-run:
