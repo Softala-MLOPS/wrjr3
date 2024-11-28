@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - development
+    path:
+      - 'src/**'
 
 jobs:
   run-in-development-environment:
