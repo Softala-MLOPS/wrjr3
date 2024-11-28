@@ -9,7 +9,7 @@ on:
 
 jobs:
   run-in-development-environment:
-    runs-on: wrjr
+    runs-on: self-hosted
     
     steps:
     - uses: actions/checkout@v2
